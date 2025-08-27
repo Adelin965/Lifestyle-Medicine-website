@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test de Autoevaluare - Lifestyle Medicine</title>
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Test de Autoevaluare</h1>
+      <p class="intro">
+        Răspunde sincer la întrebările de mai jos pentru a-ți evalua stilul de
+        viață pe baza celor 7 piloni ai Lifestyle Medicine, conform viziunii știintifice a
+        medicului psihiatru Valerio Rosso, inspirația fundamentală pentru tot acest site.
+      </p>
+
+      <form id="quiz-form">
+        <!-- 🍎 Alimentație -->
+        <h2>🍎 Alimentație</h2>
+        <div class="question-block">
+          <h3>1. Cât de des consumi alimente vegetale integrale?</h3>
+          <select name="q1">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Foarte rar</option>
+            <option value="2">Ocazional</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Zilnic</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>2. Cât de des consumi alimente ultraprocesate?</h3>
+          <select name="q2">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="5">Foarte rar</option>
+            <option value="4">Ocazional</option>
+            <option value="3">Uneori</option>
+            <option value="2">Des</option>
+            <option value="1">Zilnic</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>3. Obișnuiești să mănânci conștient, fără distrageri?</h3>
+          <select name="q3">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Niciodată</option>
+            <option value="2">Rareori</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Întotdeauna</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>4. Cât de des planifici mesele săptămânale?</h3>
+          <select name="q4">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Niciodată</option>
+            <option value="2">Rareori</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Întotdeauna</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>5. Ai o relație echilibrată cu mâncarea?</h3>
+          <select name="q5">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Slabă</option>
+            <option value="3">Oscilantă</option>
+            <option value="4">Bună</option>
+            <option value="5">Foarte bună</option>
+          </select>
+        </div>
+
+        <!-- 🏃 Activitate Fizică -->
+        <h2>🏃 Activitate Fizică</h2>
+        <div class="question-block">
+          <h3>6. Cât de des faci mișcare moderată (mers, dans, ciclism)?</h3>
+          <select name="q6">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Niciodată</option>
+            <option value="2">O dată pe săptămână</option>
+            <option value="3">De 2–3 ori pe săptămână</option>
+            <option value="4">De 4–5 ori pe săptămână</option>
+            <option value="5">Zilnic</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>
+            7. Practici activități care îți conectează corpul și mintea (yoga,
+            stretching)?
+          </h3>
+          <select name="q7">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Niciodată</option>
+            <option value="2">Rareori</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Zilnic</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>8. Mișcarea face parte din rutina ta zilnică?</h3>
+          <select name="q8">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte puțin</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Este integrată complet</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>9. Simți că mișcarea îți influențează pozitiv starea mentală?</h3>
+          <select name="q9">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte puțin</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Foarte mult</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>10. Ai varietate în tipurile de mișcare pe care le practici?</h3>
+          <select name="q10">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Nu</option>
+            <option value="2">Foarte puțină</option>
+            <option value="3">Moderată</option>
+            <option value="4">Diversificată</option>
+            <option value="5">Foarte diversificată</option>
+          </select>
+        </div>
+
+        <!-- 🛌 Somn -->
+        <h2>🛌 Somn</h2>
+        <div class="question-block">
+          <h3>11. Cât de des dormi între 7 și 9 ore pe noapte?</h3>
+          <select name="q11">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Niciodată</option>
+            <option value="2">Rareori</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Zilnic</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>12. Ai o rutină predictibilă de somn?</h3>
+          <select name="q12">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte puțin</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Întotdeauna</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>13. Eviți ecranele cu lumină albastră înainte de culcare?</h3>
+          <select name="q13">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Niciodată</option>
+            <option value="2">Rareori</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Întotdeauna</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>14. Simți că somnul îți influențează starea emoțională?</h3>
+          <select name="q14">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte puțin</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Foarte mult</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>15. Dormitorul tău este optimizat pentru odihnă?</h3>
+          <select name="q15">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Slab</option>
+            <option value="3">Acceptabil</option>
+            <option value="4">Bun</option>
+            <option value="5">Excelent</option>
+          </select>
+        </div>
+
+        <!-- 🧘 Gestionarea Stresului -->
+        <h2>🧘 Gestionarea Stresului</h2>
+        <div class="question-block">
+          <h3>16. Cât de des practici respirație conștientă sau meditație?</h3>
+          <select name="q16">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Niciodată</option>
+            <option value="2">Rareori</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Zilnic</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>17. Reușești să identifici semnele stresului în corpul tău?</h3>
+          <select name="q17">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte puțin</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Foarte clar</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>18. Ai ritualuri zilnice care te ajută să te relaxezi?</h3>
+          <select name="q18">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Niciodată</option>
+            <option value="2">Rareori</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Întotdeauna</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>
+            19. Cât de des simți că stresul îți afectează somnul sau digestia?
+          </h3>
+          <select name="q19">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="5">Niciodată</option>
+            <option value="4">Rareori</option>
+            <option value="3">Uneori</option>
+            <option value="2">Des</option>
+            <option value="1">Zilnic</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>20. Ai persoane apropiate cu care poți vorbi despre stres?</h3>
+          <select name="q20">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte puține</option>
+            <option value="3">Câteva</option>
+            <option value="4">Suficiente</option>
+            <option value="5">Multe și de încredere</option>
+          </select>
+        </div>
+
+        <!-- 🔓 De-imputernicirea Dependențelor -->
+        <h2>🔓 De-imputernicirea Dependențelor</h2>
+        <div class="question-block">
+          <h3>
+            21. Cât de des simți că te bazezi pe obiceiuri nesănătoase pentru a
+            gestiona emoțiile?
+          </h3>
+          <select name="q21">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="5">Niciodată</option>
+            <option value="4">Rareori</option>
+            <option value="3">Uneori</option>
+            <option value="2">Des</option>
+            <option value="1">Zilnic</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>
+            22. Ai conștientizat vreodată un comportament dependent în viața ta?
+          </h3>
+          <select name="q22">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte puțin</option>
+            <option value="3">Parțial</option>
+            <option value="4">Da, în parte</option>
+            <option value="5">Da, complet</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>
+            23. Ai încercat să înlocuiești un obicei nociv cu unul sănătos?
+          </h3>
+          <select name="q23">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Niciodată</option>
+            <option value="2">O dată</option>
+            <option value="3">De câteva ori</option>
+            <option value="4">Des</option>
+            <option value="5">Este parte din stilul meu de viață</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>
+            24. Ai acces la sprijin (terapie, grupuri, mentorat) pentru a
+            gestiona dependențele?
+          </h3>
+          <select name="q24">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte limitat</option>
+            <option value="3">Ocazional</option>
+            <option value="4">Suficient</option>
+            <option value="5">Consistent și de încredere</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>25. Simți că ai autonomie în alegerile tale zilnice?</h3>
+          <select name="q25">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte puțin</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">În mod constant</option>
+          </select>
+        </div>
+
+        <!-- 🤝 Relații Interpersonale -->
+        <h2>🤝 Relații Interpersonale</h2>
+        <div class="question-block">
+          <h3>26. Ai relații în care te simți în siguranță emoțional?</h3>
+          <select name="q26">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte puține</option>
+            <option value="3">Câteva</option>
+            <option value="4">Suficiente</option>
+            <option value="5">Multe și profunde</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>27. Cât de des practici ascultarea activă în conversații?</h3>
+          <select name="q27">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Niciodată</option>
+            <option value="2">Rareori</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Întotdeauna</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>28. Ai obiceiul de a exprima recunoștință față de ceilalți?</h3>
+          <select name="q28">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Niciodată</option>
+            <option value="2">Rareori</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Zilnic</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>29. Reușești să stabilești granițe sănătoase în relații?</h3>
+          <select name="q29">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte greu</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Cu claritate și respect</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>
+            30. Simți că relațiile tale contribuie la echilibrul tău emoțional?
+          </h3>
+          <select name="q30">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte puțin</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Foarte mult</option>
+          </select>
+        </div>
+
+        <!-- 🏡 Mediul de Viață -->
+        <h2>🏡 Mediul de Viață</h2>
+        <div class="question-block">
+          <h3>
+            31. Locuința ta este ordonată și favorizează claritatea mentală?
+          </h3>
+          <select name="q31">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Slab</option>
+            <option value="3">Acceptabil</option>
+            <option value="4">Bun</option>
+            <option value="5">Excelent</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>32. Ai acces zilnic la lumină naturală și aer proaspăt?</h3>
+          <select name="q32">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Niciodată</option>
+            <option value="2">Rareori</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Zilnic</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>
+            33. Ai un spațiu personal dedicat relaxării sau introspecției?
+          </h3>
+          <select name="q33">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte puțin</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Este parte din rutina mea</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>34. Mediul tău social (vecini, comunitate) te susține?</h3>
+          <select name="q34">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte puțin</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">Foarte mult</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <h3>
+            35. Ai integrat elemente naturale (plante, lemn, lumină) în spațiul
+            tău?
+          </h3>
+          <select name="q35">
+            <option value="">-- Selectează un răspuns --</option>
+            <option value="1">Deloc</option>
+            <option value="2">Foarte puțin</option>
+            <option value="3">Uneori</option>
+            <option value="4">Des</option>
+            <option value="5">În mod constant</option>
+          </select>
+        </div>
+
+        
+        <button type="button" id="calc-btn">Calculează scorul</button>
+      </form>
+
+      <div id="results" class="results" style="display: none">
+        <h2>Rezultatul tău</h2>
+        <div id="score-output"></div>
+      </div>
+    </div>
+
+    <div class="btn-container">
+      <a href="index.html" class="btn-back">← Înapoi la pagina principală</a>
+    </div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>
